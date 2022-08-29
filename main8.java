@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class main8 {
+    // Rarea of a circle
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter radius:");
+        float rad = sc.nextFloat();
+        float area = 3.14f * rad * rad;
+        System.out.print("Area of circle:");
+        System.out.print(area);
+    }
+}
